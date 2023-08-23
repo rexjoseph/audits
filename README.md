@@ -7,4 +7,4 @@ this repo holds a selection of recent audit reports I've done that can be shared
 | ---- | ---- | --------- | --------- | --------- |
 | [blueberry finance](https://blueberry.garden) | full protocol | sherlock | judging | [report]() |
 
-[@jvorex_](https://twitter.com/jvorex_)
+dm me on Twitter [@jvorex_](https://twitter.com/jvorex_)
