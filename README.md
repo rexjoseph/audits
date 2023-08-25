@@ -9,4 +9,4 @@ this repo holds a selection of recent audit reports I've done that can be shared
 | [certora-gmx formal verification](https://gmx.io) | v2 | c4 | ongoing | [report]() |
 | [blueberry finance](https://blueberry.garden) | v3 | sherlock | judging | [report](reports/blueberry.md) |
 
-dm me on Twitter [@jvorex_](https://twitter.com/jvorex_)
+Twitter [@jvorex_](https://twitter.com/jvorex_)
