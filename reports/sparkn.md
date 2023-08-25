@@ -123,7 +123,7 @@ Not validating the existence of a valid proxy in the `distributeByOwner` functio
 
 ## Vulnerability Detail
 
-This vulnerability can be seen in the distributeByOwner (L205-219) function at the `ProxyFactory.sol` contract which lacks checks for the proxy address being passed in the params to be validated as deployed and/or not belonging to another open contest on the platform
+This vulnerability can be seen in the `distributeByOwner` (L205-219) function at the `ProxyFactory.sol` contract which lacks checks for the proxy address being passed in the params to be validated as deployed and/or not belonging to another open contest on the platform
 
 ## Impact
 
@@ -155,7 +155,7 @@ Manual Review / VSCode
 
 ## Recommendation
 
-1. getProxyAddress before attempting to distribute
+1. `getProxyAddress` before attempting to distribute
 2. Employ a hardened check utilizing salt, owner, contest ID and implementation comparison
 3. Verify proxy is infact existent/deployed before attempting to distribute
 
@@ -165,7 +165,7 @@ In the case a winner's wallet is blacklisted by a Stablecoin or ERC20 token prio
 
 ## Vulnerability Detail
 
-This issue can be seen in the _distribute function of the `Distributor.sol` contract from lines 116-156 not considering an instance where one of the winners' address is blacklisted by the reward token which essentially prevents them from being rewarded and rendering a fix for such a scenario.
+This issue can be seen in the `_distribute` function of the `Distributor.sol` contract from lines 116-156 not considering an instance where one of the winners' address is blacklisted by the reward token which essentially prevents them from being rewarded and rendering a fix for such a scenario.
 
 ## Impact
 
