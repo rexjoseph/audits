@@ -33,7 +33,7 @@ The following contracts were in scope:
 
 # Detailed Findings
 
-## [H-01] The poolToken0 and poolToken1 are incorrectly returned
+## [H-01] Duplicate winner addresses will be funded
 
 The `_distribute` function in Distributor.sol will fund all winners including duplicate addresses.
 
